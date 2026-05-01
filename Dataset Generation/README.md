@@ -5,8 +5,8 @@ This folder contains the MATLAB script and generated MPSK datasets for FSO chann
 ## Files
 
 - `MPSK_Data_Gen.m`: MATLAB script used to generate the datasets.
-- `gg_mpsk_dataset.mat`: MPSK dataset generated with Gamma-Gamma turbulence.
-- `logn_mpsk_dataset.mat`: MPSK dataset generated with Lognormal turbulence.
+- `gg_mpsk_dataset.mat`: M-PSK dataset generated with Gamma-Gamma turbulence.
+- `logn_mpsk_dataset.mat`: M-PSK dataset generated with Lognormal turbulence.
 
 ## Label Encoding
 
@@ -43,5 +43,4 @@ Dataset matrix size:
 ```text
 16000 x 2050
 ```
-
 The first column contains the SNR value in dB. The next `1024` columns contain the in-phase components, followed by `1024` quadrature components. The final column contains the modulation label.
