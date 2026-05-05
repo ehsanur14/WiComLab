@@ -1,4 +1,4 @@
-# MPSK, MQAM, and MPAM Dataset Description
+# Dataset Description
 
 This folder contains the MATLAB scripts and generated MPSK/MQAM/MPAM datasets for FSO channel classification.
 
